@@ -1,0 +1,94 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS';
+}
+body{
+    background-color: bisque;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+.flex-container > div{
+    border-radius: 25px;
+    padding: 20px;
+    margin: 10px;
+
+    vertical-align: middle;
+}
+#Thriller{
+    background-color: whitesmoke;
+}
+#TMOLH{
+    background-color: orange;
+}
+#TLOP{
+    background-color: orangered;
+}
+#Some_Rap_Songs{
+    background-color: rgb(197, 197, 110);
+}
+#Because_The_Internet{
+    background-color: hotpink;
+}
+#Atrocity_Exhibition{
+    background-color: black;
+    color: white;
+}
+nav {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul + li {
+    display: inline-block;
+    padding-right: 20px;
+    text-align: left;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    padding-right: 20px;
+    text-align: right;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 30px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+  }
+  footer{
+    background-color: #555;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  img{
+    height: auto;
+    width: auto;
+  }
+  footer a:link{
+    color: white;
+  }
+  footer a:visited{
+    color: red;
+  }
+
+
+
